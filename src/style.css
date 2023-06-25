@@ -1,0 +1,11 @@
+.container-fluid{
+position: relative;
+}
+
+img {
+    max-width: 60px;
+
+}
+a:visited{
+    color: blueviolet;
+}
