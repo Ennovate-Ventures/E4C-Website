@@ -1,3 +1,7 @@
+body{
+    text-align: center;
+}
+
 .container-fluid{
 position: relative;
 }
@@ -8,4 +12,10 @@ img {
 }
 a:visited{
     color: blueviolet;
+}
+p{
+    text-align: center;
+}
+.btn btn-primary{
+    color: white;
 }
