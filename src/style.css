@@ -1,21 +1,29 @@
 body{
     text-align: center;
+    color: white;
+    font-family:Montserrat;
+    background-image: linear-gradient(to right, #522B39,#D2AC58, #F1E4B2);
 }
 
-.container-fluid{
+
+.container-fluid a:visited{
 position: relative;
+color: #522B39;
+}
+
+.container{
+flex-wrap: wrap;
 }
 
 img {
     max-width: 60px;
 
 }
-a:visited{
-    color: blueviolet;
-}
+
 p{
     text-align: center;
+    font-size: 30px;
 }
-.btn btn-primary{
-    color: white;
+h1{
+    font-size: 100px;
 }
