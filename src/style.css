@@ -1,29 +1,49 @@
 body{
     text-align: center;
-    color: white;
+    color:rgb(243, 241, 241);
     font-family:Montserrat;
-    background-image: linear-gradient(to right, #522B39,#D2AC58, #F1E4B2);
+    background-image: url("https://images.pexels.com/photos/6268313/pexels-photo-6268313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+   background-repeat: no-repeat;
+
 }
 
 
 .container-fluid a:visited{
 position: relative;
-color: #522B39;
 }
 
 .container{
-flex-wrap: wrap;
+    margin-right:20px;
+    text-align: right;
+    background-image: linear-gradient(to right,#3b3b3b,#cac6bb );
+    width:830px;
+    height: 600px;
+    margin-top:-25px ;
 }
 
 img {
-    max-width: 60px;
+    max-width: 70px;
 
 }
 
 p{
-    text-align: center;
+    float: right;
     font-size: 30px;
+    width: 800px;
 }
 h1{
-    font-size: 100px;
+    font-size: 90px;
+    color: #3541b4; 
+}
+.btnn{
+    background-color: #0014c7; 
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
+  
 }
