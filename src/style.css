@@ -76,7 +76,7 @@ h1{
     color: #3541b4; 
 } */
 .btnn{
-    background-color: #0014c7; 
+    background-color: #FFCF06; 
   border: none;
   color: white;
   padding: 10px 25px;
@@ -84,5 +84,6 @@ h1{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 17px;
   
 }
