@@ -1,0 +1,14 @@
+.services {
+    color: white;
+    background-image: linear-gradient(to right,#3b3b3b,#cac6bb);
+}
+img{
+max-width: 60px;
+}
+h1{
+text-align: center;
+}
+h2{
+font-size: medium;
+font-weight: bold;
+}

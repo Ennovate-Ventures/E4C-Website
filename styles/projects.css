@@ -1,0 +1,15 @@
+body{
+    color: white;
+    background-image: linear-gradient(to right,#3b3b3b,#cac6bb);
+}
+h2,a {
+    text-align: center;
+}
+img{
+max-width: 60px;
+} 
+
+a{
+color: white;
+text-decoration: none;
+}
