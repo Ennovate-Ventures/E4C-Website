@@ -1,6 +1,7 @@
 .services {
     color: white;
     background-image: linear-gradient(to right,#3b3b3b,#cac6bb);
+    font-family: 'Montserrat', sans-serif;
 }
 img{
 max-width: 60px;
@@ -46,3 +47,31 @@ font-weight: bold;
     color: #fff; 
     padding-right: 10rem;
   }
+
+  footer .email-link{
+    text-decoration:none ;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  footer .email-link:hover{
+    color: #FFCF06;
+  }
+  
+  footer .social-links{
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 14px;
+    margin: 0 20px;
+    background-color: white;
+  }
+  
+  a img {
+    width: 30px;
+    height: 28px;
+    margin-left: 50px;
+  }
+  
+  
+  

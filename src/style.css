@@ -90,8 +90,8 @@ h1{
 
 footer .email-link{
   text-decoration:none ;
-  color: black;
-  font-size: 24px;
+  color:white;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -113,3 +113,14 @@ a img {
 }
 
 
+footer{
+  color: white;
+  background-color: black;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.contact{
+  position: absolute;
+  padding-right: 70%;
+}

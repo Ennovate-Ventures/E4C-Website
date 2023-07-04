@@ -1,61 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
-  font-family: 'Montserrat', sans-serif;
-  color:white ;
-  background-image: linear-gradient(to right,#3b3b3b,#cac6bb);
-
+    color:white ;
+    background-image: linear-gradient(to right,#3b3b3b,#cac6bb);
+    font-family: 'Montserrat', sans-serif;
 }
-h1,h2 {
-text-align:center;
+h2,a {
+    text-align: center;
 }
-
-h1 {
-text-decoration: underline;
-font-size: 70px;
-}
-
-img {
+img{
 max-width: 60px;
+} 
+
+.hero h1{
+    font-size: 100px;
+    color:#FFCF06 ;
+    padding-left: 8vw;
+  padding-right: 50vw;
+  text-decoration: underline;
+
 }
 
-.button {
-text-align: center;
+.about a{
+color: black;
+text-decoration: none;
 }
 
-li {
-font-weight: bold;
+
+
+.hero{
+    background-size: 100%;
+    background-image: url('https://images.pexels.com/photos/6268313/pexels-photo-6268313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat:no-repeat; 
+    height: 70vh;
+    position: relative;
+    background-position: left ;
 }
 
-.container-fluid a:visited {
-position: relative;
-color: #522B39;
-}
+footer .email-link{
+    text-decoration:none ;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  footer .email-link:hover{
+    color: #FFCF06;
+  }
+  
+  footer .social-links{
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 14px;
+    margin: 0 20px;
+  background-color: black;
+  }
+  
+  a img {
+    width: 30px;
+    height: 28px;
+    margin-left: 50px;
+  }
+  
+  
+  
 
-.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-max-width: 80%;
-}
-a {
-color: white;
-}
+.hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
-.about {
-background: url(./src/Pic.png);
-background-size: cover;
-background-repeat: no-repeat;
-height: 80vh;
-margin-top: 0;
-}
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    /* Center the content vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    color: #fff; 
+    padding-right: 10rem;
+  }
 
-.about h1 {
-text-align: left;
-padding-left: 8vw;
-padding-top: 15vh;
-}
-
-.about p {
-padding-left: 8vw;
-padding-right: 50vw;
-text-align: justify;
-}
+  footer{
+    color: white;
+    background-color: black;
+    text-align: left;
+    padding-top: 20px;
+  }
+  
+  .contact{
+    position: absolute;
+    padding-right: 70%;
+  }

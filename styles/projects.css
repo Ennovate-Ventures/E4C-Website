@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body{
     color:white ;
     background-image: linear-gradient(to right,#3b3b3b,#cac6bb);
@@ -47,9 +48,10 @@ footer .email-link{
   
   footer .social-links{
     font-size: 18px;
-    border-radius: 50px;
+    border-radius: 5px;
     padding: 10px 14px;
     margin: 0 20px;
+
   }
   
   a img {
@@ -80,4 +82,16 @@ footer .email-link{
     height: 100%;
     color: #fff; 
     padding-right: 10rem;
+  }
+
+  footer{
+    color: white;
+    background-color: black;
+    text-align: left;
+    padding-top: 20px;
+  }
+  
+  .contact{
+    position: absolute;
+    padding-right: 70%;
   }
