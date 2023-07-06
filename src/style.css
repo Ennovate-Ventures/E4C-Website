@@ -19,7 +19,7 @@ position: relative;
 } */
 
 .logo{
-    max-width: 5rem;
+    max-width: 8rem;
 }
 
 .new-hero{
@@ -136,11 +136,11 @@ footer .email-link{
   padding: 0 1rem;
 }
 
-a img {
+/* a img {
   width: 30px;
   height: 28px;
   margin-left: 50px;
-}
+} */
 
 
 footer{
