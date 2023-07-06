@@ -1,4 +1,4 @@
 # NGO-Web
  An NGO website
 
- Link: https://main--ennovateforchange.netlify.app/
+ Link to demo: https://main--ennovateforchange.netlify.app/
